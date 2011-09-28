@@ -379,7 +379,7 @@ CONFIG(no-update):DEFINES *= NO_UPDATE_CHECK
         qt_fr.qm \
         qt_ru.qm \
         qt_pl.qm \
-        qt_ja_JP.qm \
+        qt_ja.qm \
         qt_zh_CN.qm \
         qt_zh_TW.qm
     copytrans.output = ${QMAKE_FILE_NAME}
