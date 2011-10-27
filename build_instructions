@@ -4,4 +4,7 @@ qmake CONFIG+=no-asio CONFIG+=no-g15 CONFIG+=no-11x CONFIG+=no-bonjour CONFIG+=n
 Without dbus (recommended, mandatory for use with Imprudence):
 qmake CONFIG+=no-asio CONFIG+=no-g15 CONFIG+=no-11x CONFIG+=no-bonjour CONFIG+=no-server CONFIG+=no-dbus -recursive
 
-nmake release
+On Windows
+  nmake release
+On Linux
+  make release
